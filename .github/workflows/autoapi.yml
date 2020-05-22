@@ -10,7 +10,7 @@ on:
   #  branches: 
   #    - master
   schedule:
-    - cron: "12 */3 * * *"
+    - cron: "37 13 * * 1-3"  #每个礼拜1到礼拜3的13点37分，M(分钟0-59) H(小时0-23) D(天1-31) m(月1-12) d(一星期内的天0-6,0为星期天)
   watch:
     types: [started]
    
